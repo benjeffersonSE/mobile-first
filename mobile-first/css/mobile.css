@@ -39,6 +39,7 @@ body {
    header {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
    }
 
    .logo img {
@@ -185,4 +186,22 @@ body {
    }
    .footerLinks li a:hover {
     text-decoration: underline;
+   }
+
+   /*form styles*/
+
+   label 
+   {
+       display: block;
+   }
+
+   input[type = 'text'], input[type = 'email'], textarea
+   {
+       width: 100%;
+       padding: 15px 10px
+   }
+
+   form>div
+   {
+       margin: 50px;
    }

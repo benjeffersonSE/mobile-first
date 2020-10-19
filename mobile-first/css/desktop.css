@@ -110,4 +110,20 @@ main {
     left: 0;
    }
 
-   
+   label 
+   {
+       display: inline-block;
+       width: 120px;
+       vertical-align: top;
+   }
+
+   input[type = 'text'], input[type = 'email'], textarea
+   {
+       width: 200px;
+       padding: 15px 10px
+   }
+
+   form>div
+   {
+       margin: 50px;
+   }
